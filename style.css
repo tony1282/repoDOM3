@@ -28,3 +28,9 @@ button:hover{border-color:var(--accent)}
 .card__title{margin:0;line-height:1.2}
 .is-hidden{display:none}
 .empty{margin:18px 0 0;color:var(--muted)}
+
+.card.done .card__title {
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: #4CAF50;
+}
